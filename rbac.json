@@ -1,0 +1,20 @@
+{
+    "Name": "Resource Group Contributor (Custom)",
+    "IsCustom": true,
+    "Description": "Allows users to manage resources within a specific resource group",
+    "Actions": [
+      "Microsoft.Resources/subscriptions/resourceGroups/read",
+      "Microsoft.Resources/subscriptions/resourceGroups/write",
+      "Microsoft.Resources/subscriptions/resourceGroups/delete",
+      "Microsoft.Compute/*",
+      "Microsoft.Network/*",
+      "Microsoft.Storage/*"
+    ],
+    "NotActions": [
+      "Microsoft.Authorization/*"
+    ],
+    "AssignableScopes": [
+      "/subscriptions/4f6a6eb9-27d0-4ed6-a31c-2bde135e2db6/resourceGroups/rg_sb_eastus_267673_1_174047051972"
+    ]
+  }
+  
