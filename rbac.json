@@ -14,7 +14,7 @@
       "Microsoft.Authorization/*"
     ],
     "AssignableScopes": [
-      "/subscriptions/subscription_id"
+      "/subscriptions/subscription_id/resourceGroups/resource_group_name"
     ]
   }
   
